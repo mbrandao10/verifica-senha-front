@@ -1,0 +1,39 @@
+
+.clasbButton1 {
+
+    // height: 300px;
+    button {	
+        background-color: rgb(12, 82, 12);
+        border: none;
+        padding: 15px;
+        width: 100%;
+        border-radius: 10px;
+        color: rgb(253, 180, 180);
+        font-size: 15px;
+
+        &:hover {
+            background-color: rgba(41, 223, 41, 0.521);
+            cursor: pointer;
+        }
+    }
+}
+
+.modal {
+	background-color: rgba(16, 12, 250, 0.808);
+}
+
+.clasbButton2 {
+    button{	
+        background-color: rgb(138, 17, 17);
+        border: none;
+        padding: 15px;
+        width: 100%;
+        border-radius: 10px;
+        color: white;
+        font-size: 15px;
+        &:hover {
+            background-color: rgb(255, 0, 43);
+            cursor: pointer;
+        }
+    }
+}

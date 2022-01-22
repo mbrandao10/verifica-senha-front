@@ -1,0 +1,15 @@
+<h1 mat-dialog-title>{{data.title}}</h1>
+<div mat-dialog-content>{{data.message}}</div>
+
+<div mat-dialog-actions class="clasbButton1" *ngIf="data.input == 1">
+  <button mat-button  mat-dialog-close>ok</button>
+</div>
+
+<div mat-dialog-actions class="clasbButton2" *ngIf="data.input == 2">
+    <button mat-button  mat-dialog-close>tente novamente</button>
+</div>
+
+<div mat-dialog-actions class="clasbButton1" *ngIf="data.input == 3">
+  <button mat-button  mat-dialog-close>ok</button>
+</div>
+

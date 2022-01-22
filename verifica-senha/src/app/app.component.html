@@ -1,0 +1,13 @@
+
+<html lang="en">
+  <img class="img-responsive" src="../assets/images/itau.jpg">
+  <div>
+      <h1>Validar Senha</h1>
+      <h3> Requisitos para validar sua senha: <mat-icon (click)="requisitos()">help_outline</mat-icon></h3> 
+      <input type="password" id="pass" [(ngModel)]="this.senha" placeholder="Senha">
+
+      <button (click)="validaSenha()">VALIDAR</button>
+  </div>
+
+</html>
+
